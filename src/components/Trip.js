@@ -1,7 +1,7 @@
 import TripData from "./TripData";
-import img from "../assets/bali.jpg";
-import img1 from '../assets/ladhk.jpg'
-import img2 from '../assets/virdhavan.jpg'
+import img from "../assets/bali1.webp";
+import img1 from '../assets/LADAKH1.avif'
+import img2 from '../assets/vrindavan1.webp'
 
 import "./TripStyle.css";
 

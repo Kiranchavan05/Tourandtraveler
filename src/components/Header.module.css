@@ -65,7 +65,7 @@ nav {
     border-radius: 10px;
     padding: 5px 8px;
     cursor: pointer;
-    background-color: blueviolet;
+   
     font-weight: bold;
     border: none;
     color: rgb(14, 13, 13);
@@ -162,25 +162,27 @@ nav {
   }
   
   .menuitems .mobilebtn {
-    border-radius: 4px;
+    border-radius: 10px;
     padding: 1.5rem;
     cursor: pointer;
-    background-color: rgb(98, 222, 233);
+    
     font-weight: 700;
+    
     letter-spacing: 2px;
     border: none;
     color:black;
-    margin : auto;
+    text-decoration: none;
+    
     display: block;
     font-size: 1.2rem;
     text-align: center;
-    width : 80%;
+    width : 30%;
   }
   
   .menuitems .mobilebtn:hover {
-    color: black;
+    color: white;
     
-    background-color: lightgreen;
+    background-color: black;
   }
   .menuicons{
     display: block;

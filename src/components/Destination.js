@@ -3,7 +3,7 @@ import "./DestinationStyle.css";
 import img1 from "../assets/kedarnath.jpeg";
 import img2 from "../assets/kedarnathmountain.jpeg";
 import img3 from "../assets/lokhandwala.jpg";
-import img4 from "../assets/raigadfort.jpg";
+import img4 from "../assets/raigardfort1.webp";
 import DestinationData from "./DestinationData";
 
 const Destination = () => {

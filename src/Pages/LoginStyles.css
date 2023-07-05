@@ -1,0 +1,76 @@
+.form{
+    background-image: url('D:\DOM 8th\react\tourandtraveler\src\assets\3.jpg');
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+   top: 0;
+   margin-top: 2px;
+   
+}
+/* .con{
+    background-color: none;
+
+}
+
+.container{
+    background-color: transparent;
+} */
+
+.conatiner-card{
+background-color: rgb(19, 160, 160);
+color: black;
+}
+.mobilebtn{
+    margin: 2rem 6rem;
+    /* color: black; */
+    text-align: center;
+    }
+   
+    .mobilebtn button{
+    height: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+   
+   border: none;
+    background: none;
+    color: rgb(10, 9, 9);
+    font-weight: 700;
+    } 
+
+    .btn2{
+        margin: 2rem 6rem;
+    color: black;
+    text-align: center;
+
+    }
+.btn2 button{
+    height: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+    @media screen and (max-width:850px) {
+        .mobilebtn{
+            margin: 2rem 2rem;
+            background: none;
+            backdrop-filter: none;
+            background-color: none;
+        }
+        .mobilebtn button{
+            padding: 5px;
+            width: 90%;
+            margin-top: -15px;
+        }
+        .btn2{
+            margin: 1rem 2rem;
+        }
+        .btn2 button{
+            padding: 5px;
+            width: 90%;
+            margin-top: -25px;
+        }
+    }
