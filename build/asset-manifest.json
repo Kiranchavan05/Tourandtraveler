@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a1da1704.css",
+    "main.js": "/static/js/main.5cf6a743.js",
+    "static/media/3.jpg": "/static/media/3.84d5235cc693e15661d6.jpg",
+    "static/media/lokhandwala.jpg": "/static/media/lokhandwala.19a4383b8e0b5f855451.jpg",
+    "static/media/12.jpg": "/static/media/12.257c5311e1cae5638aad.jpg",
+    "static/media/kedarnath.jpeg": "/static/media/kedarnath.3b2cab58662480bc1617.jpeg",
+    "static/media/kedarnathmountain.jpeg": "/static/media/kedarnathmountain.ebd61c2752dac4fef196.jpeg",
+    "static/media/night.jpg": "/static/media/night.ac6d287d5d0014553b87.jpg",
+    "static/media/kailas1.jpeg": "/static/media/kailas1.3723320828ee84d6e049.jpeg",
+    "static/media/img3.webp": "/static/media/img3.cade0595747aaff9b46f.webp",
+    "static/media/vrindavan1.webp": "/static/media/vrindavan1.de40b3ec9580abcca419.webp",
+    "static/media/bali1.webp": "/static/media/bali1.acefcd3147315cf93155.webp",
+    "static/media/LADAKH1.avif": "/static/media/LADAKH1.3c46c4d6c0469a1f5ef1.avif",
+    "static/media/raigardfort1.webp": "/static/media/raigardfort1.281121665c083aaf9535.webp",
+    "index.html": "/index.html",
+    "main.a1da1704.css.map": "/static/css/main.a1da1704.css.map",
+    "main.5cf6a743.js.map": "/static/js/main.5cf6a743.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1da1704.css",
+    "static/js/main.5cf6a743.js"
+  ]
+}
