@@ -1,5 +1,5 @@
 import React,{ useRef, useState} from "react";
-import { Button, Card, Col, Container, Form, Row } from "react-bootstrap";
+import {  Card, Col, Container, Form, Row } from "react-bootstrap";
 import {useHistory} from 'react-router-dom'
 import { useDispatch } from "react-redux";
 import { authActions } from "./authentication";
@@ -97,13 +97,13 @@ const Login = () => {
     
      <div className="form">
        <Container className='con' >
-         <Row className="container justify-content-center m-5">
+         <Row className="container justify-content-center m-2">
            {/* Add justify-content-center class to center the row */}
            <Col lg={5}>
-             <Card className="conatiner shadow-lg m-5">
+             <Card className="conatiner shadow-1g m-5 p-1 bg-transparent border-0">
                <Card.Body>
                  <Form className="container" onSubmit={submitHandler}>
-                   <Card.Header className="p-3" style={{ textAlign: "center" , backgroundColor:'blue'}}>
+                   <Card.Header className="p-2 card-header-no-shadow" style={{ textAlign: "center", color:'white'}}>
                      <h4>{isLogin ? "Login" : "Signup"}</h4>
                    </Card.Header>
                    <Form.Group className="m-2">
@@ -123,17 +123,21 @@ const Login = () => {
                    </Form.Group>
 
                    
-                   <div>
+                   <div className="btn1">
+
                    {loading ? (
                        "loading..."
                      ) : (
-                       <Button
-                         className="mt-2"
-                         style={{ marginLeft: "40%" }}
-                         type="submit"
-                       >
-                         {isLogin ? "Login" : "Signup"}
-                       </Button>
+                        <button type="submit">
+                            {isLogin ? "Login" : "Signup"}
+                        </button>
+                    //    <Button
+                    //      className="mt-2"
+                    //      style={{ marginLeft: "40%" }}
+                    //      type="submit"
+                    //    >
+                    //      {isLogin ? "Login" : "Signup"}
+                    //    </Button>
                      )}
                    </div>
 

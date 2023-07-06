@@ -3,25 +3,32 @@
    background-size: cover;
    background-position: center;
    height: 100vh;
-   top: 0;
-   margin-top: 2px;
+  
    
 }
 /* .con{
     background-color: none;
 
 }
+.container
 
 .container{
     background-color: transparent;
 } */
-
-.conatiner-card{
+.card-header-no-shadow {
+    box-shadow: none !important;
+  }
+/* .bg-transparent{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+  } */
+/* .conatiner-card{
 background-color: rgb(19, 160, 160);
 color: black;
-}
+} */
 .mobilebtn{
-    margin: 2rem 6rem;
+    margin: 1rem 6rem;
     /* color: black; */
     text-align: center;
     }
@@ -33,23 +40,48 @@ color: black;
    
    border: none;
     background: none;
-    color: rgb(10, 9, 9);
+    color: rgb(249, 245, 245);
     font-weight: 700;
+    font-size: 1.1rem;
     } 
 
-    .btn2{
-        margin: 2rem 6rem;
-    color: black;
+    .btn1{
+    margin: 0 6rem;
+    color: rgb(249, 246, 246); 
     text-align: center;
 
     }
-.btn2 button{
+    
+.btn1 button{
     height: 3rem;
-    padding: 0 1rem;
-    margin-bottom: 2rem;
-    border-radius: 0.3rem;
-    border: 1px solid white;
-    background-color: black;
+    padding: 0 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border:none;
+    background-color: transparent;
+
+
+    /* border-radius: 0.3rem; */
+    /* border: 1px solid white; */
+   
+    color: rgb(247, 242, 242);
+}
+
+    .btn2{
+        margin: 0 6rem;
+    /* color: black; */
+    text-align: center;
+    background: none;
+
+    }
+.btn2 button{
+    height: 1rem;
+    padding: 0 2rem;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border:none;
+     
     color: white;
 }
 
@@ -69,6 +101,14 @@ color: black;
             margin: 1rem 2rem;
         }
         .btn2 button{
+            padding: 5px;
+            width: 90%;
+            margin-top: -25px;
+        }
+        .btn1{
+            margin: 1rem 2rem;
+        }
+        .btn1 button{
             padding: 5px;
             width: 90%;
             margin-top: -25px;
